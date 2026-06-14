@@ -26,3 +26,14 @@ export interface DateRange {
     from: ISODateString;
     to: ISODateString;
 }
+
+// ------ Common Enums ------
+export type Direction = "up" | "down" | "neutral";
+ 
+export type RiskLevel = "very_low" | "low" | "medium" | "high" | "very_high";
+ 
+export type HealthStatus = "critical" | "warning" | "fair" | "good" | "excellent";
+ 
+// ------ Percentage / Ratio ------
+export type Percentage = number; // 0–100
+export type Ratio = number;      // 0–1
