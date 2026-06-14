@@ -37,3 +37,14 @@ export type HealthStatus = "critical" | "warning" | "fair" | "good" | "excellent
 // ------ Percentage / Ratio ------
 export type Percentage = number; // 0–100
 export type Ratio = number;      // 0–1
+
+// ------ Change ------
+export interface Change {
+  value: number;
+  percentage: Percentage;
+  direction: Direction;
+}
+ 
+// ------ Localization ------
+export type Locale = "fa" | "en";
+ 
