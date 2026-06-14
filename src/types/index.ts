@@ -10,3 +10,4 @@ export * from './budget'     // 4. Cash flow & debt
 export * from './learn'      // 5. Education content
 export * from './analysis'   // 6. Scenarios & projections
 export * from './roadmap'    // 7. Goals & long-term plans
+export * from './dashboard'  // 8. Aggregated dashboard views
