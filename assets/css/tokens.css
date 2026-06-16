@@ -1,0 +1,64 @@
+/* ═══════════════════════════════════════════════
+   DESIGN TOKENS
+   Extends assets/css/variables.css with semantic
+   tokens for the app shell and feature modules.
+   Import after variables.css.
+═══════════════════════════════════════════════ */
+
+:root {
+  /* ── Semantic surface colors ── */
+  --color-surface:        #0a0808;   /* sidebar, cards */
+  --color-surface-hover:  #120b0b;
+  --color-surface-active: #1a0a0b;
+  --color-surface-card:   #0f0909;
+
+  /* ── Borders ── */
+  --color-border:         #1f1010;
+  --color-border-subtle:  #160c0c;
+
+  /* ── Text ── */
+  --color-text:           #f0e8e8;
+  --color-text-muted:     #7a5f60;
+  --color-text-subtle:    #4a3435;
+
+  /* ── Status colors ── */
+  --color-success:        #2d7a4f;
+  --color-success-dim:    #1a3d28;
+  --color-warning:        #8a6200;
+  --color-warning-dim:    #3d2c00;
+  --color-danger:         var(--color-primary);
+  --color-danger-dim:     var(--color-deep);
+
+  /* ── Data / chart colors ── */
+  --color-chart-crypto:   #db0c26;
+  --color-chart-etf:      #8b0415;
+  --color-chart-gold:     #c4922a;
+  --color-chart-cash:     #4a7a5a;
+  --color-chart-insurance:#5a4a7a;
+
+  /* ── Spacing scale ── */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-7: 48px;
+  --space-8: 64px;
+
+  /* ── Radius ── */
+  --radius-sm:  4px;
+  --radius-md:  8px;
+  --radius-lg:  12px;
+  --radius-xl:  16px;
+
+  /* ── Type scale ── */
+  --text-xs:   11px;
+  --text-sm:   13px;
+  --text-base: 14px;
+  --text-md:   16px;
+  --text-lg:   20px;
+  --text-xl:   24px;
+  --text-2xl:  32px;
+  --text-3xl:  40px;
+}
