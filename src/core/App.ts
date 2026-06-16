@@ -38,8 +38,8 @@ export class App {
 
   start(): void {
     // Assemble shell — sidebar right, content left (RTL)
-    this.root.appendChild(this.contentEl);
     this.root.appendChild(this.sidebar.getElement());
+    this.root.appendChild(this.contentEl);
 
     this.sidebar.mount();
     this.router.start();
