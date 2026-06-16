@@ -44,7 +44,6 @@ export class Sidebar {
     logo.innerHTML = `
       <div class="sidebar__logo-mark">₿</div>
       <div>
-        <div class="sidebar__logo-text">مانی هیست</div>
         <div class="sidebar__logo-sub">Money Heist</div>
       </div>
     `;
